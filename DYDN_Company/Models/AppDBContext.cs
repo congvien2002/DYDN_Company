@@ -83,17 +83,17 @@ namespace DYDN_Company.Models
 
         }
 
-        DbSet<Account> Accounts { get; set; }
-        DbSet<Bill> Bills { get; set; }
-        DbSet<BillDetail> BillDetails { get; set; }
-        DbSet<CategoryProduct> CategoryProducts { get; set; }
-        DbSet<Department> Departments { get; set; }
-        DbSet<Employee> Employees { get; set; }
-        DbSet<Factory> Factories { get; set; }
-        DbSet<HistoryBill> HistoryBills { get; set; }
-        DbSet<Order> Orders { get; set; }
-        DbSet<OrderDetail> OrderDetails { get; set; }
-        DbSet<Product> Products { get; set; }
-        DbSet<WareHouse> WareHouses { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Bill> Bills { get; set; }
+        public DbSet<BillDetail> BillDetails { get; set; }
+        public DbSet<CategoryProduct> CategoryProducts { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Factory> Factories { get; set; }
+        public DbSet<HistoryBill> HistoryBills { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<WareHouse> WareHouses { get; set; }
     }
 }
